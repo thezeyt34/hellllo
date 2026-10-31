@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: greeting-site
+    runtime: node
+    region: frankfurt
+    plan: starter            # диск работает только на платных тарифах (на free база стирается)
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.2
+      - key: DB_PATH
+        value: /var/data/data.db
+      - key: ADMIN_LOGIN
+        sync: false          # Render спросит значение при создании
+      - key: ADMIN_PASSWORD
+        sync: false          # Render спросит значение при создании
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 1

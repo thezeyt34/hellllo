@@ -1,0 +1,30 @@
+КОМУ КАКОЕ ПРИВЕТСТВИЕ
+
+azam -> Ozim qilgan saytda ozimni ismimni kiritish yaxwimas lekin
+shahzoda / shaxzoda -> shaxoniya_ пошла нахуй, тебе тут не место. выйди нахуй из моего сайта.
+shamshod -> Qalesan Shamshod ishlarin yaxwimi, da sani 1 ga 1 Борьба da yutomiman.
+saidahror -> Said qalesan, esindan chiqmasin sandan tezro yuguraman.
+elshod -> Elshod qalesan, Saidni shkafga tiqilu? (hazil shkaf ni eshigi singan ku)
+sarvar -> Sarvar qalesan iwlarin yaxwimi.
+aziz -> Aziz qalesan yaxwimisan tuzumisan.
+diyor -> Diyor qalesan hammasi yaxwimi tuzumisan.
+xamidullo / xamidulloja -> Xamidulloja qalesan ishlarin yaxwimi.
+sadoqat / sadokat -> Assalomu Alaykum yaxwimisiz tuzumisiz ishlariz yaxwimi.
+shaxnoza / shahnoza -> Assalomu alaykum man tashagan kinolarni korvossizmi?
+farzona -> idish tovogimni yuvib ber please
+maryam / mariyam -> Доброго времени суток как жизнь, дела как.
+omina -> 3 ta Omina ismli qizni taniman qaysi biri?
+abbos -> Abbos qalesan iwlarin, uydigila yaxwimi.
+yoqub -> Qalesan jigarim yaxwimisan ishlawin yaxwimi
+sharifjon -> assalomu alaykum toga yaxwimisiz tuzumisiz uydigila yaxwimi
+sofia / sofiya -> София здарова как дела
+gleb -> Глеб почему ты всегда улыбаешься?
+
+ОСТАЛЬНЫЕ СЛУЧАИ
+
+Любое другое имя английскими буквами -> имя + qalesan (например: ali qalesan)
+Имя русскими (или не английскими) буквами -> ИМЯ ПИСАТЬ ТОЛЬКО АНГЛИСКИМИ БУКВАМИ
+
+Регистр букв не важен: Azam, AZAM и azam дают один результат.
+
+АДМИНКА: /admin (логин и пароль задаются в server.js)

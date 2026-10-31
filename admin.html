@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Админка</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div id="login" class="card login hidden">
+    <h1>Админка</h1>
+    <input id="loginInput" type="text" placeholder="Логин" autocomplete="username">
+    <input id="passInput" type="password" placeholder="Пароль" autocomplete="current-password">
+    <p class="error" id="loginError"></p>
+    <button id="loginBtn">Войти</button>
+  </div>
+
+  <div id="panel" class="panel hidden">
+    <header>
+      <h1>Статистика поиска имён</h1>
+      <div class="actions">
+        <button class="ghost" id="refreshBtn">Обновить</button>
+        <button class="ghost" id="logoutBtn">Выйти</button>
+      </div>
+    </header>
+
+    <div class="stats">
+      <div class="stat"><span id="totalNum">0</span><small>всего поисков</small></div>
+      <div class="stat"><span id="visitorsNum">0</span><small>разных устройств</small></div>
+      <div class="stat"><span id="namesNum">0</span><small>разных имён</small></div>
+    </div>
+
+    <section class="card">
+      <h2>По именам <small>(нажми на имя, чтобы посмотреть только его)</small></h2>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Имя</th><th>Поисков</th><th>Устройств</th><th>Последний раз</th></tr></thead>
+          <tbody id="namesBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 id="recentTitle">Последние запросы</h2>
+      <button class="ghost small hidden" id="resetFilter">Показать все</button>
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr><th>Время</th><th>Имя</th><th>Устройство</th><th>Система</th><th>Браузер</th><th>IP</th><th>Экран</th><th>ID</th></tr>
+          </thead>
+          <tbody id="recentBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+<script src="admin.js"></script>
+</body>
+</html>

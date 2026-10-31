@@ -1,0 +1,12 @@
+{
+  "name": "greeting-site",
+  "version": "1.0.0",
+  "description": "Сайт-приветствие с админкой",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

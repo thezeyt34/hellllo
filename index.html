@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Привет</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div id="screen1">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="ru">RU</button>
+        <button type="button" class="lang-btn" data-lang="uz">UZ</button>
+      </div>
+
+      <div class="title">
+        <h1 id="tTitle"></h1>
+        <a class="sticker" href="/admin" aria-label="Admin">😎</a>
+      </div>
+
+      <p><span id="tA"></span><b id="tB"></b><span id="tC"></span></p>
+      <input id="name" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <p class="error" id="error"></p>
+      <button id="ok" type="button"></button>
+    </div>
+
+    <div id="screen2" class="hidden">
+      <div id="result"></div>
+      <button class="ghost" id="back" type="button"></button>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
